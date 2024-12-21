@@ -1,13 +1,19 @@
 
 .course-card {
-    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, .2);
-    width: fit-content;
+    box-shadow: 0 0.063rem 1rem 0 rgba(0, 0, 0, .2);
+    width: 100%;
   }
 
   .course-title {
-    font-size: 27px;
+    font-size: 1.688rem;
   }
 
   .course-description {
     user-select: none;
+  }
+
+  .course-image {
+    width: 25rem;
+    height: 8.125rem;
+    object-fit: contain;
   }

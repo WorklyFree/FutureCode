@@ -1,11 +1,11 @@
-<div class="course-card rounded text-center">
+<div class="course-card rounded text-center mb-3">
     <div class="fw-bold p-2 course-title">
-      Angular for Beginners
+      {{course.description}}
     </div>
     <div>
-      <img src="assets/images/angular.png" alt="img" loading="lazy"/>
+      <img [src]="course.imageUrl" class="course-image" alt="img" loading="lazy"/>
     </div>
     <div class="course-description p-2 text-start">
-      Text Description
+      {{course.longDescription}}
     </div>
 </div>
